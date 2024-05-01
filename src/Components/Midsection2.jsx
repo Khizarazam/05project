@@ -4,7 +4,7 @@ import { IoMdPaw } from "react-icons/io";
 export default function Midsection2() {
   return (
     <>
-      <div className='w-[100%] h-[700px] bg-[#fffaf5] flex'>
+      <div className='w-[100%] h-[950px] bg-[#fffaf5] flex'>
           <div className=' w-[40%] h-full pt-[50px] pl-[150px]'>
 
             <div className='bg-white w-[230px] h-[40px] rounded-lg shadow-xl flex'><IoMdPaw className="text-3xl text-[#000958] pt-[5px] pl-[5px]"/><p className='font-bold text-xl text-[#000958] pt-[5px] pl-[15px]'>Special Offers</p></div>
@@ -35,6 +35,7 @@ export default function Midsection2() {
                   <button className='w-[80%] ml-[20px] h-[35px] bg-[#c353d6] mt-[25px] rounded-2xl text-white text-[15px] font-bold'>Shop Now</button>
                 </div>
             </div>
+            <div className='bg-[#000958]  w-[230px] h-[150px] mt-[30px] rounded-lg shadow-xl'><p className='text-xl font-semibold text-[#ffc817] ml-[55px] pt-[30px]'>FLASH SALE</p><p className='text-[#ffffff] ml-[84px]'>Ends in</p></div>
           </div>
           <div className=' w-[60%] h-full'>
             <div className='bg-white w-[90%] h-[40px] rounded-lg shadow-xl flex mt-[50px] ml-[30px]'><IoMdPaw className="text-3xl text-[#000958] pt-[5px] pl-[5px]"/><p className='font-bold text-xl text-[#000958] pt-[5px] pl-[15px]'>Trending Products</p></div>
@@ -48,9 +49,15 @@ export default function Midsection2() {
                 <div className='bg-[#b64fc8] ml-[36px] w-[200px] h-[200px] mt-[30px] rounded-lg shadow-xl'></div>
                 <div className='bg-[#2c8b35] ml-[36px] w-[200px] h-[200px] mt-[30px] rounded-lg shadow-xl'></div>
              </div>
-             
+             <div className='bg-white w-[90%] h-[40px] rounded-lg shadow-xl flex mt-[50px] ml-[30px]'><IoMdPaw className="text-3xl text-[#000958] pt-[5px] pl-[5px]"/><p className='font-bold text-xl text-[#000958] pt-[5px] pl-[15px]'>Trending Products</p></div>
+             <div className='w-full flex'>
+                <div className='bg-[#b64fc8] ml-[36px] w-[320px] h-[200px] mt-[30px] rounded-lg shadow-xl'></div>
+                <div className='bg-[#2c8b35] ml-[36px] w-[320px] h-[200px] mt-[30px] rounded-lg shadow-xl'></div>
+             </div>
           </div>
+          
       </div>
+      
     </>
   )
 }

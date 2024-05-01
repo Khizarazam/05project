@@ -27,9 +27,9 @@ function Header() {
           </ul>
         </div>
         <div className="flex text-2xl gap-3 mr-16 text-[#000958]">
-           <BiSearch />
-           <AiOutlineShoppingCart />
-           <BiSolidUser />
+           <BiSearch className=" cursor-pointer"/>
+           <AiOutlineShoppingCart className=" cursor-pointer"/>
+           <BiSolidUser className=" cursor-pointer"/>
         </div>
       </div>
       <hr className="border-[2px] border-[#000958] ml-16 mr-16"/>
