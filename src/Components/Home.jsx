@@ -1,9 +1,52 @@
 import React from 'react'
 import { IoMdPaw } from "react-icons/io";
-
-export default function Midsection2() {
+export default function Home() {
   return (
     <>
+     <div className='w-full h-[550px] bg-[#fffaf5]'>
+     <div className="flex text-[#000958] ml-20 ">
+        <div className=" w-[50%] h-[529px] mt-[170px]">
+         <h1 className="text-3xl font-sans  font-bold">
+          The best place to buy top quality<br />products for your pets
+         </h1>
+         <p>
+          Shop by pet,brand or product sale!
+         </p>
+         <input placeholder="What are you looking for?" type="text" className="text-[15px] pl-2 mt-[50px] shadow-xl border-2 border-black rounded-full h-[40px] w-[250px]" />
+         <button className="ml-2 rounded-full mt-[50px]  tracking-[0.1em] bg-[#ff5b2e] hover:bg-[#90432e] py-2 px-4 font-bold text-white text-center text-[16px] shadow-xl">Search</button>
+        </div>
+        <div className=" w-[50%] h-[529px]">
+          <img src="pic2.png" className="w-[350px] h-[450px] pt-[40px] pl-[100px] drop-shadow-xl" alt="" />
+        </div>
+      </div>
+      </div>
+   
+    
+                   {/* Catogary */}
+
+      <div>
+        <p className='bg-[#fffaf5] text-center text-2xl font-sans text-[#000958] font-bold'>Categories</p>
+        
+        <div className='bg-[#fffaf5] w-full h-[470px] flex justify-between items-center pl-[90px] pr-[90px]'>
+           <div className='w-[220px] h-[200px] bg-[#fff0e1] rounded-xl'>
+              <p className='font-bold pt-3 text-center'>Fish</p>
+              <div><img src="download.jpg" alt="" className='mt-8 mix-blend-multiply w-[80%] h-[80%] ml-3'/></div>
+           </div>
+           <div className='w-[220px] h-[200px] bg-[#fff0e1] rounded-xl'>
+              <p className='font-bold pt-3 text-center'>Cats</p>
+              <div><img src="pic1.png" alt="" className='mt-10 mix-blend-multiply w-[80%] h-[80%] ml-5'/></div>
+           </div>
+           <div className='w-[220px] h-[200px] bg-[#fff0e1] rounded-xl'>
+              <p className='font-bold pt-3 text-center'>Birds</p>
+              <div><img src="pic3.png" alt="" className='mt-12 mix-blend-multiply w-[80%] h-[80%] ml-3'/></div>
+           </div>
+           <div className='w-[220px] h-[200px] bg-[#fff0e1] rounded-xl'>
+              <p className='font-bold pt-3 text-center'>Ducks</p>
+              <div><img src="pic4.png" alt="" className='mt-7 mix-blend-multiply w-[70%] h-[70%] ml-6'/></div>
+           </div>
+        </div>
+      </div>
+
       <div className='w-[100%] h-[950px] bg-[#fffaf5] flex'>
           <div className=' w-[40%] h-full pt-[50px] pl-[150px]'>
 
@@ -55,9 +98,8 @@ export default function Midsection2() {
                 <div className='bg-[#2c8b35] ml-[36px] w-[320px] h-[200px] mt-[30px] rounded-lg shadow-xl'></div>
              </div>
           </div>
-          
       </div>
-      
+
     </>
   )
 }

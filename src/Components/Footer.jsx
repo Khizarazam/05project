@@ -6,12 +6,11 @@ import { IoLogoTwitter } from "react-icons/io";
 export default function Footer() {
   return (
     <>
+    
       <div className='w-full h-[350px] bg-[#fde7cb]'>
-        
-        
-        
         <div className='flex'>
         <IoMdPaw className="text-3xl text-[#000958] mt-[70px] ml-[100px]"/>
+
           <div className='text-[#000958] ml-[180px] mt-[70px]'>
             <h3 className=' font-semibold text-xl'>Company</h3>
             <p className='pt-[20px]'>About Us</p>
