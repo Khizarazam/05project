@@ -7,7 +7,7 @@ import { BiSolidUser } from "react-icons/bi";
 function Header() {
   return (
     <>
-     <div className="bg-[#fffaf5] h-[70px] w-full">
+     <div className="bg-[#fffaf5] h-[90px] w-full">
        <div className="flex h-[60px] justify-between items-center text-[#000958]">
         <div className="font-bold ml-16">
          <ul className="flex gap-16">
